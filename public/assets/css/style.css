@@ -33,3 +33,15 @@
     padding: 20px;
     margin: 20px;
 }
+main a {
+    text-decoration: none;
+    color: #67BA80;
+}
+.btn {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 20px;
+    background-color: #F4E8D3;
+    color: #67BA80;
+    border-radius: 10px;
+}
