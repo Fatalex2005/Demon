@@ -76,4 +76,15 @@
             <button class="btn" type="submit">Отредактировать партнера</button>
         </div>
     </form>
+
+    <div>
+        <h2>История реализации продукции</h2>
+        @foreach($partner_products as $partner_product)
+            <div class="flex">
+                <div class="div70">Дата {{$partner_product->date}}</div>
+                <div class="div70">Количество {{$partner_product->quantity}}</div>
+                <div class="div70">Название товара {{$partner_product->product->name}}</div>
+            </div>
+        @endforeach
+    </div>
 @endsection

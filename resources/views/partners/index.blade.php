@@ -19,6 +19,7 @@
             </div>
         </div>
         </a>
+        <a style="padding-left: 20px;" href="/partners/history/{{$partner->id}}">История реализации продукции {{$partner->partnerType->name}} "{{$partner->name}}"</a>
     @endforeach
 
 @endsection
